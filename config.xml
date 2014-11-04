@@ -16,10 +16,8 @@
         Sergio Estrada
     </author>
 	
-	<preference name= "Orientation" value= "portrait" />
 	<preference name= "fullscreen" value= "true" />
-	
-	<preference name="auto-hide-splash-screen"    value="true" />
+	<preference name="orientation" value="landscape" />
 	
 	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
 	<gap:plugin name="net.yoik.cordova.plugins.screenorientation" version="1.2.1" />
