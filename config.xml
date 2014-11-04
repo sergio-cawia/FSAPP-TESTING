@@ -5,7 +5,6 @@
         versionCode = "10" 
         version     = "1.0.0" >
 
-    <!-- versionCode is optional and Android only -->
 
     <name>FSA FREE</name>
 
@@ -13,18 +12,19 @@
         FS APP TEST
     </description>
 
-    <author href="https://www.cawia.com" email="sergio@cawia.com">
+    <author href="http://www.cawia.com" email="sergio@cawia.com">
         Sergio Estrada
     </author>
 	
-	<icon src="icon.png" />
+	<preference name= "Orientation" value= "portrait" />
+	<preference name= "fullscreen" value= "true" />
 	
-	<preference name="fullscreen" value="true" />
-	<preference name="Orientation" value="portrait" />
 	<preference name="auto-hide-splash-screen"    value="true" />
 	
 	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
 	<gap:plugin name="net.yoik.cordova.plugins.screenorientation" version="1.2.1" />
+	
+	<icon src="icon.png" />
 	
 	
 
