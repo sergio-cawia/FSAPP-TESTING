@@ -24,6 +24,7 @@
 	<preference name="auto-hide-splash-screen"    value="true" />
 	
 	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
+	<gap:plugin name="net.yoik.cordova.plugins.screenorientation" version="1.2.1" />
 	
 	
 
