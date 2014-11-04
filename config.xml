@@ -20,6 +20,7 @@
 	<icon src="icon.png" />
 	
 	<preference name="fullscreen" value="true" />
+	<preference name="Orientation" value="portrait" />
 	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
 	
 	
