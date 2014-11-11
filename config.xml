@@ -18,6 +18,7 @@
 	
 	<preference name= "fullscreen" value= "true" />
 	<preference name="orientation" value="portrait" />
+	<preference name="KeyboardShrinksView" value="false"/>
 	
 	<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" version="1.2.0" />
 	
